@@ -7,6 +7,14 @@ This project analyzes NYC Yellow Taxi trip data to uncover key trends and insigh
 - **Python**: Data handling and compression for large datasets.
 - **Power BI**: Data visualization and dashboard creation.
 
+## Dashboard Screenshots
+Below are screenshots of the Power BI dashboards:
+
+![Dashboard Screenshot 1](Home.png)
+![Dashboard Screenshot 2](Insight1.png)
+![Dashboard Screenshot 3](Insight2.png)
+![Dashboard Screenshot 4](Features.png)
+
 ## Data Insights
 ### Dashboard 1: Overview of Taxi Trips
 #### 1. Total Trips and Passengers
@@ -68,14 +76,6 @@ This project analyzes NYC Yellow Taxi trip data to uncover key trends and insigh
 
 #### 7. Total Revenue by Pickup Hour
 - **Insight**: Highest revenue between **6 PM - 9 PM** and **morning rush hours (7 AM - 10 AM)**.
-
-## Dashboard Screenshots
-Below are screenshots of the Power BI dashboards:
-
-![Dashboard Screenshot 1](images/dashboard1.png)
-![Dashboard Screenshot 2](images/dashboard2.png)
-![Dashboard Screenshot 3](images/dashboard3.png)
-![Dashboard Screenshot 4](images/dashboard4.png)
 
 ## Conclusion
 This analysis provides actionable insights for NYC Yellow Taxi services:
