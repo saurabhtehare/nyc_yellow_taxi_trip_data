@@ -1,129 +1,90 @@
-NYC Yellow Taxi Trip Data Analysis
+# NYC Yellow Taxi Trip Data Analysis
 
-Project Overview
+## Project Overview
+This project analyzes NYC Yellow Taxi trip data to uncover key trends and insights related to trip volume, passenger behavior, fare distribution, and revenue patterns. Using **Python** for data processing and **Power BI** for visualization, we provide an interactive dashboard highlighting critical aspects of taxi operations in NYC.
 
-This project analyzes NYC Yellow Taxi trip data to uncover key trends and insights related to trip volume, passenger behavior, fare distribution, and revenue patterns. Using Python for data processing and Power BI for visualization, we provide an interactive dashboard highlighting critical aspects of taxi operations in NYC.
+## Tech Stack
+- **Python**: Data handling and compression for large datasets.
+- **Power BI**: Data visualization and dashboard creation.
 
-Tech Stack
+## Data Insights
+### Dashboard 1: Overview of Taxi Trips
+#### 1. Total Trips and Passengers
+- **Insight**: 20,000 total trips and 33,000 total passengers.
+- **Interpretation**: Indicates shared rides or family/group travel trends.
 
-Python: Data handling and compression for large datasets.
+#### 2. Average Trip Time and Distance
+- **Insight**: 
+  - Average trip time: 12.36 minutes
+  - Average trip distance: 2.84 miles
+- **Interpretation**: Typical short-distance urban taxi operations in NYC.
 
-Power BI: Data visualization and dashboard creation.
+#### 3. Average Fare Amount
+- **Insight**: Average fare is **$12.30**, indicating affordability.
 
-Data Insights
+#### 4. Total Revenue Over Time
+- **Insight**: Revenue peaked in **March ($80K)**, showing an increasing trend.
+- **Interpretation**: Seasonal or operational factors may be influencing revenue growth.
 
-Dashboard 1: Overview of Taxi Trips
+#### 5. Trips by Day of the Week
+- **Insight**: 
+  - **Thursday and Saturday** have the highest trips (~3.2K)
+  - **Monday and Tuesday** have fewer trips (~2.5K)
+- **Interpretation**: Higher demand on weekends and late weekdays suggests nightlife and event-related travel.
 
-1. Total Trips and Passengers
+#### 6. Sum of Fare Amount by Payment Type
+- **Insight**: 
+  - **Credit cards** dominate (67.7%)
+  - **Cash payments** account for (31.8%)
+- **Interpretation**: Increasing preference for digital payments.
 
-Insight: 20,000 total trips and 33,000 total passengers.
+#### 7. Geographic Distribution of Pickups and Drop-offs
+- **Insight**: Highest density in **Manhattan**, followed by Brooklyn and Jersey City.
+- **Interpretation**: NYC business centers and tourist spots drive high taxi demand.
 
-Interpretation: Indicates shared rides or family/group travel trends.
+### Dashboard 2: Deeper Analysis
+#### 1. Trip Distance vs. Tip Amount
+- **Insight**: Longer trips receive higher tips.
+- **Interpretation**: Higher customer satisfaction for longer rides.
 
-2. Average Trip Time and Distance
+#### 2. Longest Trips by Vendor
+- **Insight**: Vendor 2 handles longer trips more often than Vendor 1.
+- **Interpretation**: Vendor 2 may focus on airport or suburban routes.
 
-Insight:
+#### 3. Most Frequent Rate Code
+- **Insight**: Standard rate is most common; few trips involve airport surcharges.
 
-Average trip time: 12.36 minutes
+#### 4. Average Tip Amount by Payment Type
+- **Insight**: Credit card payments have higher tip amounts.
+- **Interpretation**: Digital payments encourage tipping via pre-set suggestions.
 
-Average trip distance: 2.84 miles
+#### 5. Average Trip Distance by Month
+- **Insight**: Slight increase in average trip distance from January (2.8 miles) to March (3.0 miles).
+- **Interpretation**: Seasonal changes or increased tourism may be factors.
 
-Interpretation: Typical short-distance urban taxi operations in NYC.
+#### 6. Peak Hours for Pickups and Drop-offs
+- **Insight**: Peak demand from **6 PM - 9 PM**, with a decline in early mornings.
+- **Interpretation**: Demand aligns with work commutes, social events, and dining.
 
-3. Average Fare Amount
+#### 7. Total Revenue by Pickup Hour
+- **Insight**: Highest revenue between **6 PM - 9 PM** and **morning rush hours (7 AM - 10 AM)**.
 
-Insight: Average fare is $12.30, indicating affordability.
+## Dashboard Screenshots
+Below are screenshots of the Power BI dashboards:
 
-4. Total Revenue Over Time
+![Dashboard Screenshot 1](images/dashboard1.png)
+![Dashboard Screenshot 2](images/dashboard2.png)
+![Dashboard Screenshot 3](images/dashboard3.png)
+![Dashboard Screenshot 4](images/dashboard4.png)
 
-Insight: Revenue peaked in March ($80K), showing an increasing trend.
-
-Interpretation: Seasonal or operational factors may be influencing revenue growth.
-
-5. Trips by Day of the Week
-
-Insight:
-
-Thursday and Saturday have the highest trips (~3.2K)
-
-Monday and Tuesday have fewer trips (~2.5K)
-
-Interpretation: Higher demand on weekends and late weekdays suggests nightlife and event-related travel.
-
-6. Sum of Fare Amount by Payment Type
-
-Insight:
-
-Credit cards dominate (67.7%)
-
-Cash payments account for (31.8%)
-
-Interpretation: Increasing preference for digital payments.
-
-7. Geographic Distribution of Pickups and Drop-offs
-
-Insight: Highest density in Manhattan, followed by Brooklyn and Jersey City.
-
-Interpretation: NYC business centers and tourist spots drive high taxi demand.
-
-Dashboard 2: Deeper Analysis
-
-1. Trip Distance vs. Tip Amount
-
-Insight: Longer trips receive higher tips.
-
-Interpretation: Higher customer satisfaction for longer rides.
-
-2. Longest Trips by Vendor
-
-Insight: Vendor 2 handles longer trips more often than Vendor 1.
-
-Interpretation: Vendor 2 may focus on airport or suburban routes.
-
-3. Most Frequent Rate Code
-
-Insight: Standard rate is most common; few trips involve airport surcharges.
-
-4. Average Tip Amount by Payment Type
-
-Insight: Credit card payments have higher tip amounts.
-
-Interpretation: Digital payments encourage tipping via pre-set suggestions.
-
-5. Average Trip Distance by Month
-
-Insight: Slight increase in average trip distance from January (2.8 miles) to March (3.0 miles).
-
-Interpretation: Seasonal changes or increased tourism may be factors.
-
-6. Peak Hours for Pickups and Drop-offs
-
-Insight: Peak demand from 6 PM - 9 PM, with a decline in early mornings.
-
-Interpretation: Demand aligns with work commutes, social events, and dining.
-
-7. Total Revenue by Pickup Hour
-
-Insight: Highest revenue between 6 PM - 9 PM and morning rush hours (7 AM - 10 AM).
-
-Conclusion
-
+## Conclusion
 This analysis provides actionable insights for NYC Yellow Taxi services:
+- **Digital Payments**: Credit cards dominate, reflecting a shift toward cashless transactions.
+- **Peak Demand**: Thursdays, Saturdays, and evening hours have the highest trip volumes.
+- **Geographic Concentration**: Most trips occur in **Manhattan**.
 
-Digital Payments: Credit cards dominate, reflecting a shift toward cashless transactions.
+## Contributors
 
-Peak Demand: Thursdays, Saturdays, and evening hours have the highest trip volumes.
-
-Geographic Concentration: Most trips occur in Manhattan.
-
-Future Improvements
-
-Integrate real-time data for up-to-date trends.
-
-Incorporate external factors (weather, events) to refine demand forecasting.
-
-Contributors
-
-Saurabh Tehare - Data Analysis & Visualization
+- **Saurabh Tehare** - Data Analysis & Visualization
 
 Open to Contributions! Feel free to raise issues or submit pull requests.
